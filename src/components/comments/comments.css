@@ -1,8 +1,16 @@
 .comments{
     height: 90vh;
     display: flex;
+
     justify-content: center;
-    color: aliceblue;
     padding-top: 5rem;
+
+}
+.commentscard{
+    height:70vh;
+    width:80rem;
+    border:1px solid gray;
+    display: flex;
+    justify-content: space-betewn;
 
 }

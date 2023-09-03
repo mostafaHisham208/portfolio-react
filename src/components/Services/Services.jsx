@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { Card } from 'react-bootstrap'
 import './services.css'
 import imgg from '../../assets/mostafalogo.png'
-import image1 from  '../../assets/dash/Screenshot (158).png'
-import image2 from  '../../assets/dash/Screenshot (159).png'
-import image3 from  '../../assets/dash/Screenshot (160).png'
+import image1 from  '../../assets/service-1.svg'
+import image2 from  '../../assets/service-2.svg'
+import image3 from  '../../assets/service-3.svg'
 import image4 from  '../../assets/dash/Screenshot (161).png'
 import image5 from  '../../assets/dash/Screenshot (162).png'
 import image6 from  '../../assets/dash/Screenshot (164).png'
@@ -14,8 +14,17 @@ export default function Services() {
 
   const  [currentimg,setcurrentimg] =useState(images[0]) 
   const  [count,setcount] =useState(0) 
+  const [isHovered, setIsHovered] = useState(false);
 
-
+  // useEffect(() => {
+  //   let interval;
+  //   if (!isHovered) {
+  //     interval = setInterval(() => {
+  //       $(".background").carousel("next");
+  //     }, 3000);         
+  //   }
+  //   return () => clearInterval(interval);
+  // }, [isHovered]);
 
    function changeImage() {
     setcurrentimg(images[count+1])
@@ -28,46 +37,89 @@ export default function Services() {
     // }
     // setcount(count+1)
 
+   }
 
-}
-var timeInterval;
-function changeDynamicImgs() {
-   timeInterval = setInterval(changeImage, 100);
+   const data = [
+    {
+      id: 1,
+      image: image1,
+      title: "UI/UX design",
+      description:
+        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    },
+    {
+      id: 2,
+      image: image2,
+      title: "Web Development",
+      description:
+        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    },
+    {
+      id: 3,
+      image: image3,
+      title: "Photography",
+      description:
+        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+    },
+  ];
+  
 
-   
-}
-function stopMoveImages() {
-    clearInterval(timeInterval);
-}
+  return (  
+    <section className="services container section" id='services'>
+      <h2 className="section__title">Services</h2>
+      <div className="services__container grid">
+        {data.map(({id,image,title,description})=>{
+            return(
+              <div className="services__card" key={id}>
+                <img src={image} alt="" className="services__img" />
+                <h3 className="services__title">{title}</h3>
+                <p className="services__description">{description}</p> 
+              </div>
+            )
+        })}
+      </div>
+    </section> 
+  //   <div id='services' className='services'> 
+  //   <div className='titleServ'>
+  //     <h2>MY SERVICES</h2>
+  //  </div>
+  //   <div className='bodyserv'>
+  //   <Card className='servcard col-3 h-75'>
+  //       <img src={currentimg}  alt=""  className='imgserv'/>
+  //       <div className='cardtitle'>
+  //       web development 
+  //       </div>
+  //       <div className='cardoutline'>
+  //         <h3>mobile application</h3>
+  //         <p>asde ldlfmldf wdlwddmlwd lcmld</p>
+  //         <button className='btn w-50'>visit</button>
+  //       </div>
+  //       </Card>
+  //       <Card className='servcard col-3 h-75'>
+  //       <img src={currentimg}  alt=""  className='imgserv'/>
+  //       <div className='cardtitle'>
+  //       web development 
+  //       </div>
+  //       <div className='cardoutline'>
+  //         <h3>mobile application</h3>
+  //         <p>asde ldlfmldf wdlwddmlwd lcmld</p>
+  //         <button className='btn w-50'>visit</button>
+  //       </div>
+  //       </Card>
+  //       <Card className='servcard col-3 h-75'>
+  //       <img src={currentimg}  alt=""  className='imgserv'/>
+  //       <div className='cardtitle'>
+  //       web development 
+  //       </div>
+  //       <div className='cardoutline'>
+  //         <h3>mobile application</h3>
+  //         <p>asde ldlfmldf wdlwddmlwd lcmld</p>
+  //         <button className='btn w-50'>visit</button>
+  //       </div>
+  //       </Card>
 
-
-  return (   
-    <div id='services' className='services'> 
-    <div className='titleServ'>
-      <h2>MY SERVICES</h2>
-   </div>
-    <div className='bodyserv'>
-        <Card className='col-3 h-75'>
-        <img src={currentimg} className='imgserv' onMouseEnter={changeDynamicImgs} onMouseLeave={stopMoveImages} alt="" width={'100%'} height={'70%'} />
-        <div className='cardtitle'>
-        web design
-        </div>
-                </Card>
-        <Card className='col-3 h-75'>
-            <img src={currentimg} onMouseEnter={changeDynamicImgs}  onMouseLeave={stopMoveImages} className='imgserv' alt=""  />
-            <div className='cardtitle'>
-            mobile application
-
-            </div>
-        </Card>
-        <Card className='col-3 h-75'>
-        <img src={currentimg} onMouseEnter={changeDynamicImgs} onMouseLeave={stopMoveImages} alt=""  className='imgserv'/>
-        <div className='cardtitle'>
-        web development 
-        </div>
-        </Card>
-
-    </div>
-    </div>
+  //   </div>
+  //   </div>
   )
+
 }

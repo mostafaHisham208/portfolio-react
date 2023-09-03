@@ -20,10 +20,11 @@ export default function Nav() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
+      <li className='btnnav'><a href='#home'> Home </a></li>
       <li className='btnnav'><a href='#header'> About me </a></li>
-            <li className='btnnav'> <a href='#education'> Education </a></li>
+            {/* <li className='btnnav'> <a href='#education'> Education </a></li> */}
             <li className='btnnav'> <a href='#services'> Services </a></li>
-            <li className='btnnav'> <a href='#skills'> Skills </a></li>
+            <li className='btnnav'> <a href='#skills'> Portfolio </a></li>
             <li className='btnnav' ><a href='#contact'> Contact me </a></li>
             <li className='btnnav'  ><a href='#comments'> comments </a></li>
         <li className="nav-item dropdown">

@@ -1,17 +1,47 @@
-.services{
+/* .services{
     height:90vh; 
     width: 80%;
     justify-items: center;
     margin: auto;
     padding-top: 5rem;
 
-}
-.titleServ{
+} */
+
+
+/* .titleServ{
     width: 30%;
     margin: auto;
     color: antiquewhite;
     margin-top: 3rem;
     margin-bottom: 5rem;
+}
+.servcard{
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.cardoutline{
+    position: absolute;
+    background:linear-gradient(rgba(0,0,0,0.7),#12f7ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.cardoutline h3{
+    color: antiquewhite;
+}
+.servcard:hover .cardoutline{
+    opacity: 0.9;
+}
+.servcard:hover .imgserv{
+    transform: scale(1.1);
 }
 .bodyserv{
     height: 75%;
@@ -23,11 +53,54 @@
 }
 .imgserv{
     height: 85% !important;
+    transition: 0.4s;
 }
+
 .cardtitle{
     height: 15%;
     font-size: 1.3rem;
     background-color: cadetblue;
     font-weight: 700;
 
+} */
+.services__container{
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1.875rem;
+}
+.services__card{
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    transition: all 0.3s ease-in-out;
+}
+.services__card:hover{
+    transform: translateY(-10px);
+}
+.services__card:nth-child(1){
+    background-color: rgb(108,108,229);
+    box-shadow: 0px 5px 20px 0px rgb(108,108,229/50%);
+}
+.services__card:nth-child(2){
+    background-color: rgb(249,215,76);
+    box-shadow: 0px 5px 20px 0px rgb(249,215,76/50%);
+}
+.services__card:nth-child(3){
+    background-color: rgb(249,123,139);
+    box-shadow: 0px 5px 20px 0px rgb(249,123,139/50%);
+}
+.services__img{
+    margin-bottom: 1.25rem;
+}
+.services__title{
+    font-size:var(--h3-font-size);
+}
+.services__description{
+    color:#f8f9fa;
+}
+.services__card:nth-child(2) .services__title{
+    color: var(--title-color);
+}
+.services__card:nth-child(2) .services__description{
+    color: var(--text-color);
 }

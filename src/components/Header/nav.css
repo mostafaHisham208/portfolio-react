@@ -1,7 +1,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background-color: rgba(147, 145, 148,0.2);
+    background-color: rgba(235, 233, 236, 0.8);
     align-items: center;
     justify-content: space-between;
     z-index: 100;
@@ -11,7 +11,7 @@
 }
 .navbar:hover{
     background-color: rgba(20, 20, 20, 0.8);
-    color: antiquewhite;
+    color: rgb(216, 210, 201);
 
 }
 .listnav{
@@ -70,4 +70,7 @@
     font-size: 1.5vw;
     font-weight: 500;
     border-radius: 10%;
+}
+.btnnav a{
+    color: rgb(161, 130, 89);
 }
