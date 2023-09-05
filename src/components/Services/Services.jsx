@@ -57,7 +57,7 @@ export default function Services() {
     {
       id: 3,
       image: image3,
-      title: "Photography",
+      title: "Mobile app development",
       description:
         "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
     },

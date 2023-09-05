@@ -3,11 +3,12 @@ import Heder from './components/Header/Heder';
 import Services from './components/Services/Services';
 import file from "./assets/Mostafa-Hisham.pdf.pdf"
 import { Education } from './components/education/Education';
-import { Skills } from './components/skills/Skills';
 import { ContactMe } from './components/contact me/ContactMe';
 import Comments from './components/comments/Comments';
 import { Home } from './components/home/Home';
 import Nav from './components/Header/Nav';
+import Portfolio from './components/portfolio/Portfolio';
+import Price from './components/price/Price';
 function App() {
   return (
     <div className="App">
@@ -16,9 +17,10 @@ function App() {
       <Heder/>
       <Education/>
       <Services/>
-      <Skills/>
+      <Portfolio/>
+      <Price/>
       <ContactMe/>
-      <Comments/>
+      {/* <Comments/> */}
     </div>
   );
 }
