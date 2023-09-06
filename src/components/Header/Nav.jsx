@@ -10,7 +10,7 @@ export default function Nav() {
   }
   return (
     <>
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
   <div className='logonav' onMouseEnter={()=>{setlogo(true)}} onMouseLeave={()=>{setlogo(false)}}>
           <img src={imagess} alt="" className='imgnav' />
@@ -58,7 +58,7 @@ export default function Nav() {
             
         </ul>
     </div> */}
-    <div onMouseEnter={()=>{setlogo(true)}} onMouseLeave={()=>{setlogo(false)}}  style={{display:logoup?'flex':'none' , width:"200px",height:"200px",border:"1px solid black",position:"absolute",top:'4rem',left:"2rem" }}></div>
+    {/* <div onMouseEnter={()=>{setlogo(true)}} onMouseLeave={()=>{setlogo(false)}}  style={{display:logoup?'flex':'none' , width:"200px",height:"200px",border:"1px solid black",position:"absolute",top:'4rem',left:"2rem" }}></div> */}
 
 </>
   )

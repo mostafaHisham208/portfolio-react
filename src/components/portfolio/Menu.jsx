@@ -9,38 +9,44 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Project Management Illustration",
+      title: "Amazon website clone",
       category: "react js",
+      link:'https://mostafahisham208.github.io/Amazon/'
     },
     {
       id: 2,
       image: Work2,
-      title: "Guest App Walkthrough Screens",
+      title: "Dashbourd for seller",
       category: "angular",
+      link:'https://mostafahisham208.github.io/Dashboard_Angular/'
     },
     {
       id: 3,
       image: Work3,
-      title: "Delivery App Wireframe",
+      title: "Amazon app clone",
       category: "react native",
+      link:'https://github.com/mostafaHisham208/Amazon_Mobile_App'
     },
     {
       id: 4,
       image: Work4,
-      title: "Onboarding Motivation",
+      title: "simple form add data to firestore ",
       category: "javascript",
+      link:''
     },
     {
       id: 5,
       image: Work5,
-      title: "iMac Mockup Design",
+      title: "portfolio",
       category: "react js",
+      link:'https://mostafahisham208.github.io/portfolio-react/'
     },
     {
       id: 6,
       image: Work6,
-      title: "Game Store App Concept",
+      title: "simple E-commerce",
       category: "angular",
+      link:''
     }
   ];
 

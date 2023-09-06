@@ -9,6 +9,7 @@ import { Home } from './components/home/Home';
 import Nav from './components/Header/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Price from './components/price/Price';
+import Testimonials from './components/testimonials/Testimonials';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Price/>
+      <Testimonials/>
       <ContactMe/>
       {/* <Comments/> */}
     </div>
