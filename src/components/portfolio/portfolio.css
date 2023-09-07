@@ -84,3 +84,34 @@ opacity: 0;
 .work__card:hover .work__button{
     opacity: 1;
 }
+
+
+@media screen and (max-width:1024px){
+    .work__container{
+        grid-template-columns: repeat(2,330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+    .work__filters{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .work__container{
+        grid-template-columns: 310px;
+    }
+    .work__filters{
+        font-size: 2vw;
+        column-gap: 1.2rem;
+        /* justify-content: space-around; */
+    }
+    
+}
+@media screen and (max-width:500px){
+ 
+    .work__filters{
+        font-size: 3vw;
+    }
+    
+}

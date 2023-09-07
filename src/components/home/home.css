@@ -1,5 +1,5 @@
 .home{
-    height: 100vh;
+    height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,3 +146,57 @@
     top: 11%;
 }
 
+
+@media screen and (max-width:1024px){
+    .home__social-link{
+        font-size: 1.125rem;
+    }
+    .home{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:700px){
+    .home{
+        height: 100vh;
+    }
+    .intro{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 1rem;
+        width: 400px;
+    }
+    .home__img{
+        margin-bottom: 0;
+    }
+    .home__describtion{
+        row-gap: 0;
+        width: 100%;
+    }
+    .home__socials{
+        padding: 0;
+        margin: 0;
+    }
+    .scroll__down{
+        bottom: 2rem;
+    }
+ 
+}
+@media screen and (max-width:400px){
+    .home{
+        height: 80vh;
+    }
+    .intro{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 1rem;
+        width: 280px;
+    }
+    .scroll__down{
+        bottom:7rem;
+    }
+    .shapes{
+        display: none;
+    }
+
+}   

@@ -87,3 +87,23 @@
     background-color: var(--container-color);
     padding: 0.4375rem 0;  
 }
+
+
+@media screen and (max-width:1024px){
+    .skills__container{
+        grid-template-columns: 450px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+    .timeline__item::before{
+        left: 2px;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .skills__container{
+        grid-template-columns: 1fr;
+    }
+    
+    
+}
