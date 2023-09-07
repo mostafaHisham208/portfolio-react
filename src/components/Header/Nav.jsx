@@ -26,10 +26,9 @@ export default function Nav() {
             <li className='btnnav'> <a href='#services'> Services </a></li>
             <li className='btnnav'> <a href='#work'> Portfolio </a></li>
             <li className='btnnav'> <a href='#pricing'> pricing </a></li>
-
             <li className='btnnav' ><a href='#contact'> Contact me </a></li>
-            <li className='btnnav'  ><a href='#comments'> comments </a></li>
-        <li className="nav-item dropdown">
+            {/* <li className='btnnav'  ><a href='#comments'> comments </a></li> */}
+        {/* <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           setting
           </a>
@@ -37,7 +36,7 @@ export default function Nav() {
             <li><a className="dropdown-item" href="#">language</a></li>
             <li><a className="dropdown-item" href="#">theme</a></li>
           </ul>
-        </li>
+        </li> */}
       </ul>
     </div>
   </div>

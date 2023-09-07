@@ -41,6 +41,9 @@
     flex-basis: auto;
     justify-content: flex-end;
 }
+#navbarNavDropdown{
+    justify-content: flex-end;
+}
 
 .listnav li:hover{
     color: aliceblue;
@@ -69,10 +72,25 @@
     border: none !important;
     padding: 0.5rem;
     padding-left: 2.5rem;
-    font-size: 1.4vw;
+    font-size: 1.1rem;
     font-weight: 500;
     border-radius: 10%;
 }
 .btnnav a{
     color: rgb(161, 130, 89);
+}
+
+@media screen and (max-width:1100px) {
+    .btnnav{
+        padding-left: 1.5rem;    }
+}
+@media screen and (max-width:990px) {
+    .btnnav{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .btnnav{
+        font-size:1rem;
+    }
 }
