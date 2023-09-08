@@ -72,7 +72,7 @@
     height: 250px;
     width: 250px;
 
-    background-color: rgb(255, 253, 108);
+    background-color: rgb(241 203 16);
     transform: rotate(-5deg);
     transition: 0.5s;
 }

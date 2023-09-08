@@ -71,23 +71,43 @@
     background-color: transparent;
     border: none !important;
     padding: 0.5rem;
-    padding-left: 2.5rem;
+    margin-left: 2.5rem;
     font-size: 1.1rem;
     font-weight: 500;
     border-radius: 10%;
+    text-align: center;
+    transition: 0.5rem;
+
 }
 .btnnav a{
     color: rgb(161, 130, 89);
 }
+.btnnav:hover a{
+    color: #fff ;
+ }
 
 @media screen and (max-width:1100px) {
     .btnnav{
-        padding-left: 1.5rem;    }
+        padding-left: 1.5rem;   
+     }
 }
 @media screen and (max-width:990px) {
+    .logonav{
+        margin-left: 0.1rem;
+        margin-bottom: 0.3rem;
+    }
     .btnnav{
         font-size: 1.6rem;
+        margin: 0;
+        margin-top: 0.2rem;
+        z-index: 10;
     }
+    
+    .btnnav:hover{
+       background-color:  rgb(161, 130, 89);
+       border-radius: 0;
+    }
+    
 }
 @media screen and (max-width:500px) {
     .btnnav{
