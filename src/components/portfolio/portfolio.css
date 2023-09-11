@@ -19,6 +19,7 @@
 .work__card{
     position: relative;
     overflow: hidden;
+    background-color: var(--container-color);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
 }
@@ -37,7 +38,7 @@
 }
 .work__category{
     color: #fff;
-    background-color: var(--first-color);
+    background-color: rgb(240, 72, 72);
     border-bottom-left-radius: 0.98rem;
     border-bottom-right-radius: 0.98rem;
     position: absolute;
@@ -76,12 +77,30 @@ opacity: 0;
     transition: 0.3s;
     opacity: 0;
 }
+.git__button{
+    color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 4.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: #6d6d6c;
+    height: 40px;
+    width: 40px; 
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 42px;
+    transition: 0.3s;
+    opacity: 0;
+}
 .work__card:hover .work__category,
 .work__card:hover .work__title{
     opacity: 1;
     transform: translateY(0);
 }
-.work__card:hover .work__button{
+.work__card:hover .work__button,
+.work__card:hover .git__button{
     opacity: 1;
 }
 

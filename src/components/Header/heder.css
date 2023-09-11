@@ -72,7 +72,7 @@
     height: 250px;
     width: 250px;
 
-    background-color: rgb(241 203 16);
+    background-color: rgb(137 134 121);
     transform: rotate(-5deg);
     transition: 0.5s;
 }
@@ -126,7 +126,7 @@
     background-color: rgb(12, 155, 36);
 }
 .native{
-    width: 70%;
+    width: 75%;
     background-color: rgb(31, 50, 224);
 }
 

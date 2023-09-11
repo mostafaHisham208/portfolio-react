@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import me from '../../assets/mostafalogo.png'
 import { Hedersocial } from './hedersocial'
 import './home.css'
 import { Scrolldown } from './Scrolldown'
 import { Shapes } from './Shapes'
+import { Button } from 'react-bootstrap'
 export const Home = () => {
+  const [mode,setmode]=useState('true');
+     const setdarkmode=()=>{
+       document.querySelector("body").setAttribute('data-theme','dark')
+       setmode("false");
+     }
+     const setlightmode=()=>{
+      document.querySelector("body").setAttribute('data-theme','light')
+      setmode("true");
+    }
+    
   return (
     <section className="home container" id='home'>
         <div className="intro">
@@ -15,13 +26,19 @@ export const Home = () => {
 
             <a href="#contact" className="btn">Hire Me</a>
             </div>
-            <div className='home__img'>
-            <img src={me} alt="" style={{width:'70%',borderRadius:'50%'}} className='home__img' />
-           <Scrolldown/>
+            <div className='home__img-cont'>
+            <img src={me} alt="" className='home__img' />
             
             </div>
-          
+            <div className="theme-color">
+            {mode=="true"?  <Button className='dark' onClick={setdarkmode}><i class="fa-solid fa-moon"></i></Button>
+             : <Button className='light' onClick={setlightmode}><i class="fa-solid fa-sun"></i></Button> 
+            }
+             </div>
+            <a href='#home' className="scrollup"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
+        <Scrolldown/>
+
         <Shapes/>
     </section>
   )
