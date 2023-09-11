@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.d4f71989.css",
-    "main.js": "/portfolio-react/static/js/main.85a1597a.js",
+    "main.css": "/portfolio-react/static/css/main.9a508e50.css",
+    "main.js": "/portfolio-react/static/js/main.fb8fcc9d.js",
     "static/media/Screenshot (161).png": "/portfolio-react/static/media/Screenshot (161).3321d9e6e84930081053.png",
     "static/media/Screenshot (164).png": "/portfolio-react/static/media/Screenshot (164).92dfc2c672fc3d8024b5.png",
     "static/media/mostafalogo.png": "/portfolio-react/static/media/mostafalogo.b298ac974f562901dfe5.png",
@@ -23,11 +23,11 @@
     "static/media/price-3.svg": "/portfolio-react/static/media/price-3.e38b12b9fc0ac74980f5c43d470782e0.svg",
     "static/media/price-2.svg": "/portfolio-react/static/media/price-2.747a8d1acf93a30ba88da632fc45e2ce.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.d4f71989.css.map": "/portfolio-react/static/css/main.d4f71989.css.map",
-    "main.85a1597a.js.map": "/portfolio-react/static/js/main.85a1597a.js.map"
+    "main.9a508e50.css.map": "/portfolio-react/static/css/main.9a508e50.css.map",
+    "main.fb8fcc9d.js.map": "/portfolio-react/static/js/main.fb8fcc9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4f71989.css",
-    "static/js/main.85a1597a.js"
+    "static/css/main.9a508e50.css",
+    "static/js/main.fb8fcc9d.js"
   ]
 }
