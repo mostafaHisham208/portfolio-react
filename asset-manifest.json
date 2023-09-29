@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.9a508e50.css",
-    "main.js": "/portfolio-react/static/js/main.fb8fcc9d.js",
-    "static/media/Screenshot (161).png": "/portfolio-react/static/media/Screenshot (161).3321d9e6e84930081053.png",
-    "static/media/Screenshot (164).png": "/portfolio-react/static/media/Screenshot (164).92dfc2c672fc3d8024b5.png",
+    "main.css": "/portfolio-react/static/css/main.3987021e.css",
+    "main.js": "/portfolio-react/static/js/main.b6ffbe33.js",
     "static/media/mostafalogo.png": "/portfolio-react/static/media/mostafalogo.b298ac974f562901dfe5.png",
     "static/media/IMG-20200728-WA0010(1).png": "/portfolio-react/static/media/IMG-20200728-WA0010(1).f46c17f95550a0ae44bd.png",
-    "static/media/Screenshot (162).png": "/portfolio-react/static/media/Screenshot (162).748503137d05f41ed1dd.png",
-    "static/media/Mostafa-Hisham.pdf.pdf": "/portfolio-react/static/media/Mostafa-Hisham.pdf.8758df77a54b9d4e17e6.pdf",
+    "static/media/Mostafa-Hisham_CV.pdf": "/portfolio-react/static/media/Mostafa-Hisham_CV.c77b9459ce49db8a6aea.pdf",
     "static/media/work-4.svg": "/portfolio-react/static/media/work-4.b1e5c1341899ee00d86d6c613f593837.svg",
+    "static/media/icon-6.png": "/portfolio-react/static/media/icon-6.3c196e27543451798f3d.png",
+    "static/media/icon-4.png": "/portfolio-react/static/media/icon-4.114e04002c26b1ba75ba.png",
     "static/media/work-3.svg": "/portfolio-react/static/media/work-3.f1d02dc63be36a2005f8d395ecb8b36c.svg",
     "static/media/avatar-3.svg": "/portfolio-react/static/media/avatar-3.605f4f9b2d464df4897817a6278e52d7.svg",
     "static/media/work-1.svg": "/portfolio-react/static/media/work-1.bebc0ee30ea8dd5325cfeb0fe8f2615b.svg",
     "static/media/service-1.svg": "/portfolio-react/static/media/service-1.cf1ed095ef4b3f923356075cee1bc398.svg",
+    "static/media/reustrant.jpg": "/portfolio-react/static/media/reustrant.070229e4be1d6514c26d.jpg",
+    "static/media/travel.jpg": "/portfolio-react/static/media/travel.5d5000d550600b3c558a.jpg",
     "static/media/work-6.svg": "/portfolio-react/static/media/work-6.e53b868f21628c547fd12d76c5b599db.svg",
     "static/media/work-5.svg": "/portfolio-react/static/media/work-5.d7139045fa5cd7bea4b9807b31919a00.svg",
     "static/media/avatar-1.svg": "/portfolio-react/static/media/avatar-1.e18c937d0a33154687422e5da407f480.svg",
+    "static/media/firebase2.png": "/portfolio-react/static/media/firebase2.d6df694759418092f707.png",
+    "static/media/icon-2.png": "/portfolio-react/static/media/icon-2.7ade9265dc9bd2c6bc82.png",
+    "static/media/icon-1.png": "/portfolio-react/static/media/icon-1.e7a936432435be030e1c.png",
+    "static/media/icon-3.png": "/portfolio-react/static/media/icon-3.b53de0f8c513f9e8b378.png",
+    "static/media/angular.png": "/portfolio-react/static/media/angular.f016063dd127ab172dab.png",
     "static/media/work-2.svg": "/portfolio-react/static/media/work-2.2b1987b3b6f51b87b2538a61b31a43d4.svg",
     "static/media/service-3.svg": "/portfolio-react/static/media/service-3.a324186e2cfcc11f1ad1ea2c0a4ffa55.svg",
     "static/media/price-1.svg": "/portfolio-react/static/media/price-1.b5f9838862632ad0cabb2d51d8a1f47a.svg",
@@ -23,11 +29,11 @@
     "static/media/price-3.svg": "/portfolio-react/static/media/price-3.e38b12b9fc0ac74980f5c43d470782e0.svg",
     "static/media/price-2.svg": "/portfolio-react/static/media/price-2.747a8d1acf93a30ba88da632fc45e2ce.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.9a508e50.css.map": "/portfolio-react/static/css/main.9a508e50.css.map",
-    "main.fb8fcc9d.js.map": "/portfolio-react/static/js/main.fb8fcc9d.js.map"
+    "main.3987021e.css.map": "/portfolio-react/static/css/main.3987021e.css.map",
+    "main.b6ffbe33.js.map": "/portfolio-react/static/js/main.b6ffbe33.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a508e50.css",
-    "static/js/main.fb8fcc9d.js"
+    "static/css/main.3987021e.css",
+    "static/js/main.b6ffbe33.js"
   ]
 }
