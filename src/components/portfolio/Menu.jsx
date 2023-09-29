@@ -4,6 +4,10 @@ import Work3 from '../../assets/work-3.svg'
 import Work4 from '../../assets/work-4.svg'
 import Work5 from '../../assets/work-5.svg'
 import Work6 from '../../assets/work-6.svg'
+import Work7 from '../../assets/travel.jpg'
+import Work8 from '../../assets/reustrant.jpg'
+
+
 
 const Menu = [
     {
@@ -54,6 +58,21 @@ const Menu = [
       category: "angular",
       link:'',
       git:'https://github.com/mostafaHisham208/'
+    },
+    {
+      id: 7,
+      image: Work7,
+      title: "Travel Website",
+      category: "react js",
+      link:'https://mostafahisham208.github.io/Travel-Website-react-js/',
+      git:'https://github.com/mostafaHisham208/Travel-Website-react-js'
+    },   {
+      id: 8,
+      image: Work8,
+      title: "Restaurant Website",
+      category: "Next js",
+      link:'https://restaurant-app-next.vercel.app/',
+      git:'https://github.com/mostafaHisham208/Restaurant-app-Next'
     }
   ];
 

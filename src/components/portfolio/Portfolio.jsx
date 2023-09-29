@@ -1,7 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Menu from './Menu'
 import './portfolio.css'
+
+
+import Aos from 'aos'
+import 'aos/dist/aos.css' 
+
+
+
 const Portfolio = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
     const [items,setitems]=useState(Menu)
     const filterby=(cat)=>{
          const filter=Menu.filter((itemselem)=>{
@@ -11,13 +21,13 @@ const Portfolio = () => {
     }
   return (
     <section className="work container section" id='work'>
-        <h2 className="section__title">Recent works</h2>
+        <h2 data-aos="fade-right" className="section__title">Recent works</h2>
         <div className="work__filters">
             <span className="work__item" onClick={()=>setitems(Menu)}>every thing</span>
             <span className="work__item" onClick={()=>filterby('react js')}>react js</span>
             <span className="work__item" onClick={()=>filterby('angular')}>angular</span>
             <span className="work__item" onClick={()=>filterby('react native')}>react native</span>
-            <span className="work__item" onClick={()=>filterby('javascript')}>javascript</span>
+            <span className="work__item" onClick={()=>filterby('Next js')}>next js</span>
           
         </div>
 
@@ -25,7 +35,7 @@ const Portfolio = () => {
           {items.map((elem)=>{
              const{id,image,title,category,link,git}=elem;
             return(
-                <div className="work__card" key={id}>
+                <div data-aos="flip-right" className="work__card" key={id}>
                     <div className="work__thumbnail">
                         <img src={image} alt="" className="work__img" />
                         <div className="work__mask"></div>

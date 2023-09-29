@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './heder.css'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css' 
+
 const Aboutbox = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+      },[])
   return (
     <div className="about__boxs grid">
-        <div className="about__box">
+        <div data-aos="fade-up" className="about__box">
         <i className="about__icon icon-fire"></i>
         <div>
                 <h3 className="about__title">198</h3>
@@ -11,7 +18,7 @@ const Aboutbox = () => {
             </div>
         </div>
 
-        <div className="about__box">
+        <div data-aos="fade-up" className="about__box">
             <i className="about__icon icon-cup"></i>
             <div>
                 <h3 className="about__title">5670</h3>
@@ -19,7 +26,7 @@ const Aboutbox = () => {
             </div>
         </div>
 
-        <div className="about__box">
+        <div data-aos="fade-up" className="about__box">
             <i className="about__icon icon-people"></i>
             <div>
                 <h3 className="about__title">427</h3>
@@ -27,7 +34,7 @@ const Aboutbox = () => {
             </div>
         </div>
 
-        <div className="about__box">
+        <div data-aos="fade-up" className="about__box">
             <i className="about__icon icon-badge"></i>
             <div>
                 <h3 className="about__title">35</h3>

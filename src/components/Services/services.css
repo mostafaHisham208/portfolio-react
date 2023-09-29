@@ -99,10 +99,12 @@
     color:#f8f9fa;
 }
 .services__card:nth-child(2) .services__title{
-    color: var(--title-color);
+    color:hsl(244,24%,26%);
+
+
 }
 .services__card:nth-child(2) .services__description{
-    color: var(--text-color);
+    color:hsl(244,16%,43%);
 }
 
 @media screen and (max-width:1024px){

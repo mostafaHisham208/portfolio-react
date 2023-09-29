@@ -1,47 +1,4 @@
-/* .heder{
-    height: 100vh;
 
-}
-.headercontent{
-    padding-top: 5rem;
-
-   
-}
-.comp{
-    margin: auto;
-    height: 60vh;
-    margin-top: 5rem;
-    background-color: rgba(177, 175, 175, 0.1);
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #ccc;
-    width:100vh;
-    border-radius: 3%;
-    transition: 1s;
-
-
-}
-.comp:hover{
-    background-color: rgba(104, 103, 103, 0.6);
-
-}
-.name{
-    width: 49%;
-    display: flex;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: blueviolet;
-    flex-direction: column;
-    align-items: center;
-}
-.about_img{
-    max-width: 89%;
-    height: 80%;
-}
-.myjob{
-    color: black;
-} */
 .about__container{
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
@@ -77,9 +34,15 @@
     transition: 0.5s;
 }
 .about__img:hover{
-    transform: scale(1.2);
+    transform: translateY(10px);
 }
+.about__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 
+}
 .about__description{
  margin-bottom: 1rem;
  text-align: justify;
@@ -129,7 +92,10 @@
     width: 75%;
     background-color: rgb(31, 50, 224);
 }
-
+.next{
+    width: 75%;
+    background-color:hsl(244,24%,26%);
+}
 .about__boxs{
     grid-template-columns: repeat(4,1fr);
     column-gap: 1.875rem;
@@ -174,7 +140,7 @@
 
 @media screen and (max-width: 768px){
     .about__container{
-        grid-template-columns: 350px;
+        grid-template-columns: 400px;
     
     }
     .about__data::before{
@@ -186,6 +152,29 @@
     }
     .about__boxs{
         grid-template-columns: repeat(2,150px);
+        row-gap: 1.5rem;
+        justify-content: center;
+
+    }
+    .about__info{
+        gap: 1rem;
+    }
+}
+    
+@media screen and (max-width: 500px){
+    .about__container{
+        grid-template-columns: 1fr;
+    
+    }
+    .about__data::before{
+        left: 47%;
+    }
+    .about__data{
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+    .about__boxs{
+        grid-template-columns: repeat(2,1fr);
         row-gap: 1.5rem;
         justify-content: center;
 

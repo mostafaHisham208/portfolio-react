@@ -61,7 +61,7 @@
     }
     .contact__form-group{
         grid-template-columns: 1fr;
-        row-gap: 1.875rem;
+        row-gap: 0;
     }
     .contact__info{
         text-align: center;

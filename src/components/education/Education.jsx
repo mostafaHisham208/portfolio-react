@@ -1,15 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './education.css'
 import mee from '../../assets/images.jpg'
 import  Card from './Card'
 import Data from './Data'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css' 
+
+
 export const Education= () => {
+
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
   return (
     <section className="skills container section" id='education'>
-      <h2 className="section__title" >Education</h2>
+      <h2 data-aos="fade-right" className="section__title" >Education</h2>
       <div className='skills__container grid'>
-        <div className="timeline grid">
+        <div data-aos="fade-up" className="timeline grid">
           {Data.map((val,id) =>{
             if(val.category==='education'){
               return (
@@ -18,7 +26,7 @@ export const Education= () => {
             }
           })}
         </div>
-        <div className="timeline grid">
+        <div data-aos="fade-up" className="timeline grid">
           {Data.map((val,index)=>{
             if(val.category==="experience"){
               return (
@@ -28,7 +36,7 @@ export const Education= () => {
           })}
         </div>
 
-      </div>
+      </div>  
     </section>
     // <div id='skills' className='skills container'>
     //   <h3>projects</h3>

@@ -50,6 +50,7 @@
     /* background-color: rgb(131, 233, 247); */
 }
 .logonav{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     align-content: center;
     align-items: center;
@@ -87,8 +88,12 @@
  }
 
 @media screen and (max-width:1100px) {
+    .btnnav a{
+        font-size: 1.1rem;
+    }
     .btnnav{
-        padding-left: 1.5rem;   
+        padding-left: 1rem;   
+        margin-left: 1rem;
      }
 }
 @media screen and (max-width:990px) {
