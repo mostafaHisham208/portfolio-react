@@ -5,6 +5,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css' 
 
 export const ContactMe = () => {
+
   useEffect(()=>{
     Aos.init({duration:2000})
   },[])
@@ -37,7 +38,7 @@ export const ContactMe = () => {
             </div> 
             <div data-aos="fade-up" className="contact__form-div">
               <input
-                type="email"
+                type="text"
                 className="contact__form-input"
                 placeholder="Insert your subject"
               />

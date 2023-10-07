@@ -56,7 +56,15 @@
 
     
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
+    .skill__container{
+        display: grid;
+        grid-template-columns: repeat(2,210px);
+        row-gap: 1.5rem; 
+
+    }
+}
+@media screen and (max-width:450px){
     .skill__container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
