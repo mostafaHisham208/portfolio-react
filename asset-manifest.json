@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3987021e.css",
-    "main.js": "/portfolio-react/static/js/main.b6ffbe33.js",
+    "main.css": "/portfolio-react/static/css/main.8ea064e2.css",
+    "main.js": "/portfolio-react/static/js/main.286472df.js",
     "static/media/mostafalogo.png": "/portfolio-react/static/media/mostafalogo.b298ac974f562901dfe5.png",
     "static/media/IMG-20200728-WA0010(1).png": "/portfolio-react/static/media/IMG-20200728-WA0010(1).f46c17f95550a0ae44bd.png",
     "static/media/Mostafa-Hisham_CV.pdf": "/portfolio-react/static/media/Mostafa-Hisham_CV.c77b9459ce49db8a6aea.pdf",
@@ -29,11 +29,11 @@
     "static/media/price-3.svg": "/portfolio-react/static/media/price-3.e38b12b9fc0ac74980f5c43d470782e0.svg",
     "static/media/price-2.svg": "/portfolio-react/static/media/price-2.747a8d1acf93a30ba88da632fc45e2ce.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.3987021e.css.map": "/portfolio-react/static/css/main.3987021e.css.map",
-    "main.b6ffbe33.js.map": "/portfolio-react/static/js/main.b6ffbe33.js.map"
+    "main.8ea064e2.css.map": "/portfolio-react/static/css/main.8ea064e2.css.map",
+    "main.286472df.js.map": "/portfolio-react/static/js/main.286472df.js.map"
   },
   "entrypoints": [
-    "static/css/main.3987021e.css",
-    "static/js/main.b6ffbe33.js"
+    "static/css/main.8ea064e2.css",
+    "static/js/main.286472df.js"
   ]
 }
