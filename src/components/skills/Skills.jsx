@@ -7,10 +7,13 @@ import img3 from '../../assets/icon-3.png'
 import img4 from '../../assets/icon-4.png'
 import img5 from '../../assets/bootstrap2.png'
 import img6 from '../../assets/tailwind.png'
-import img7 from '../../assets/angular.png'
-import img8 from '../../assets/firebase2.png'
-import img9 from '../../assets/next1.png'
+import img7 from '../../assets/typescript.png'
+import img8 from '../../assets/angular.png'
+import img9 from '../../assets/firebase2.png'
 import img10 from '../../assets/icon-6.png'
+import img11 from '../../assets/next1.png'
+
+
 
 
 import Aos from 'aos'
@@ -24,10 +27,13 @@ const data1=[
     {id:4,img:img4,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"SASS"},
     {id:5,img:img5,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"BOOTSTRAP"},
     {id:6,img:img6,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"TAILWIND"},
-    {id:7,img:img7,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"ANGULR"},
-    {id:8,img:img8,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"FIREBASE"},
-    {id:9,img:img10,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"REACT"},
-    {id:10,img:img9,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"NEXT JS"},
+    {id:7,img:img7,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"TYPESCRIPT"},
+    {id:8,img:img8,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"ANGULR"},
+    {id:9,img:img9,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"FIREBASE"},
+    {id:10,img:img10,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"REACT"},
+    {id:11,img:img11,desc:"i have a lot fo knowledge in the field of Front-end Web ",title:"NEXT JS"},
+
+
 
 ]
 
