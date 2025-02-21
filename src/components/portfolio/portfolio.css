@@ -12,6 +12,9 @@
 .work__item:hover{
     color: var(--first-color);
 }
+.work__filters > .active{
+    color: hsl(353,100%,65%);
+}
 .work__container{
     grid-template-columns: repeat(3,1fr);
     gap: 1.875rem;

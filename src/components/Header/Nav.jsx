@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "./nav.css";
-import imagess from "../../assets/mostafalogo.png";
+import images from "../../assets/mostafalogo.png";
 import { Button } from "react-bootstrap";
 export default function Nav() {
-  const [logoup, setlogo] = useState(false);
+  const [logoup, setLogo] = useState(false);
 
   var logo = () => {
-    setlogo(!logoup);
+    setLogo(!logoup);
   };
   return (
     <>
@@ -15,13 +15,13 @@ export default function Nav() {
           <div
             className="logonav"
             onMouseEnter={() => {
-              setlogo(true);
+              setLogo(true);
             }}
             onMouseLeave={() => {
-              setlogo(false);
+              setLogo(false);
             }}
           >
-            <img src={imagess} alt="" className="imgnav" />
+            <img src={images} alt="" className="imgnav" />
             Mostafa
           </div>{" "}
           <button

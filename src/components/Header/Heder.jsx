@@ -1,34 +1,41 @@
-import React,{useEffect} from 'react'
-import Nav from './Nav'
-import { Button } from 'react-bootstrap'
+import React, { useEffect } from "react";
 
-import './heder.css'
-import file from "../../assets/Mostafa-Hisham_CV.pdf"
-import imagess from '../../assets/IMG-20200728-WA0010(1).png'
-import Aboutbox from './aboutbox'
+import "./heder.css";
+import file from "../../assets/Mostafa-Hisham_CV.pdf";
+import imagess from "../../assets/IMG-20200728-WA0010(1).png";
 
-import Aos from 'aos'
-import 'aos/dist/aos.css' 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import ScrollUpButton from "../home/ScrollUpButton";
 
-
+const summery =
+  "Front-End Developer with experience in building and optimizing user interfaces using React.js, Redux, and TypeScript. Skilled in developing ERP systems, dashboards, and e-commerce platforms, with a strong focus on responsive design, state management, and seamless API integration. Proficient in modern frameworks like Next.js, PrimeReact, and Tailwind CSS, ensuring high-performance and scalable applications. Passionate about delivering intuitive user experiences and collaborating with cross-functional teams to create efficient web solutions.";
 export default function Heder() {
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <section className='about container section' id='header'>
-       <h2 data-aos="fade-right" className="section__title">About Me</h2>
-       <div className="about__container grid" id='about'>
-          <img data-aos="flip-right" src={imagess} alt='' className='about__img'/>
-          <div data-aos="fade-up"  className="about__data grid">
-            <div className="about__info">
-              <p className="about__description">I am Mostafa Hisham, web developer from Giza, Egypt. Seeking a challenge position in a reputable company where I can
-use my knowledge in the field of Front-end Web & and mobile
-development and enhance my skills in the field of architecture while
-contributing to the company’s growth.</p>
-              <a href={file} download='' className="btn">Download CV</a>
+    <section className="about container section" id="header">
+      <h2 data-aos="fade-right" className="section__title">
+        About Me
+      </h2>
+      <div className="about__container grid" id="about">
+        <img
+          data-aos="flip-right"
+          src={imagess}
+          alt=""
+          className="about__img"
+        />
+        <div data-aos="fade-up" className="about__data ">
+          <div className="about__info">
+            <p className="about__description">{summery}</p>
+            <div>
+              <a href={file} download="" className="btn">
+                Download CV
+              </a>
             </div>
-            <div className="about__skills grid">
+          </div>
+          {/* <div className="about__skills grid">
             <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">JavaScript</h3>
@@ -74,10 +81,13 @@ contributing to the company’s growth.</p>
                   <span className="skills__percentage next"></span>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
         </div>
-        <Aboutbox/>     
+      </div>
+      {/* <Aboutbox/>      */}
+      <ScrollUpButton />
+      {/* <a href='#home' className="scrollup"><i class="fa-solid fa-arrow-up"></i></a> */}
+
     </section>
-  )
+  );
 }

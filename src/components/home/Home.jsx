@@ -42,7 +42,6 @@ export const Home = () => {
              : <Button className='light' onClick={setlightmode}><i className="fa-solid fa-sun"></i></Button> 
             }
              </div>
-            <a href='#home' className="scrollup"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
         <Scrolldown/>
 

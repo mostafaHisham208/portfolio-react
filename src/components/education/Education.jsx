@@ -18,10 +18,10 @@ export const Education= () => {
       <h2 data-aos="fade-right" className="section__title" >Education</h2>
       <div className='skills__container grid'>
         <div data-aos="fade-up" className="timeline grid">
-          {Data.map((val,id) =>{
+          {Data.map((val,i) =>{
             if(val.category==='education'){
               return (
-                <Card key={id} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/>
+                <Card  key={i} props={{...val}} />
               )
             }
           })}
@@ -30,7 +30,7 @@ export const Education= () => {
           {Data.map((val,index)=>{
             if(val.category==="experience"){
               return (
-                <Card key={index} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/>
+                <Card key={index}  props={{...val}}/>
               )
             }
           })}
