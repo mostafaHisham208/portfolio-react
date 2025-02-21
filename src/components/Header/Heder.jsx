@@ -85,7 +85,6 @@ export default function Heder() {
         </div>
       </div>
       {/* <Aboutbox/>      */}
-      <ScrollUpButton />
       {/* <a href='#home' className="scrollup"><i class="fa-solid fa-arrow-up"></i></a> */}
 
     </section>

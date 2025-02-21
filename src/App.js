@@ -10,6 +10,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Price from './components/price/Price';
 import Testimonials from './components/testimonials/Testimonials';
 import Skills from './components/skills/Skills';
+import ScrollUpButton from './components/home/ScrollUpButton';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,8 @@ function App() {
       <Price/>
       <Testimonials/>
       <ContactMe/>
+      <ScrollUpButton />
+
       {/* <Comments/> */}
     </div>
   );
